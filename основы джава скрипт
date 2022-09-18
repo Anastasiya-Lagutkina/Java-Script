@@ -1,0 +1,45 @@
+3+4
+7
+5;
+5
+"Привет, я строка";
+'Привет, я строка'
+99*123;
+12177
+"Вот длинная строка".slice(0,3);
+'Вот'
+"Привет, мир!";
+'Привет, мир!'
+var myAwesomeString = "Что-то очень КРУТОЕ!!!";
+undefined
+var greeting = "Привет";
+undefined
+var greeting = "Привет";
+var myName = "Ник";
+greeting + myName;
+'ПриветНик'
+var greeting = "Привет, ";
+var myName = "Ник";
+greeting + myName;
+'Привет, Ник'
+"Супердлиннаяпредлиннаястрока".length;
+28
+var java = "Java";
+java.length;
+4
+var myName = "Ник";
+myName[0];
+'Н'
+myName[1];
+'и'
+myName[2];
+'к'
+var codeWord1 = "обернись";
+var codeWord2 = "неужели";
+var codeWord3 = "огурцы";
+var codeWord4 = "липкие";
+var codeWord5 = "?!";
+codeWord1[1] + codeWord2[1] + codeWord3[1] + codeWord4[1] + codeWord5[1];  
+
+
+'беги!'
