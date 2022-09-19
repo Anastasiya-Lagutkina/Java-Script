@@ -1,0 +1,20 @@
+var age = 11;
+var accompanied = true;
+var admissibleAge = 12;
+var entryAllowed = (age >= admissibleAge) || ((age <= admissibleAge) && accompanied);
+entryAllowed;
+true
+
+var age = 12;
+var accompanied = true;
+var admissibleAge = 12;
+var entryAllowed = (age >= admissibleAge) || ((age <= admissibleAge) && accompanied);
+entryAllowed;
+true
+
+var age = 11;
+var accompanied = false;
+var admissibleAge = 12;
+var entryAllowed = (age >= admissibleAge) || ((age <= admissibleAge) && accompanied);
+entryAllowed;
+false
