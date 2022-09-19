@@ -1,0 +1,46 @@
+var javascriptIsCool = true;
+javascriptIsCool;
+true
+
+var hadShower = true;
+var hasBackpack = false;
+hadShower && hasBackpack;
+false
+
+var hadShower = true;
+var hasBackpack = true;
+hadShower && hasBackpack;
+true
+
+var hasApple = true;
+var hasOrange = false;
+hasApple || hasOrange;
+true
+
+var hasApple = false;
+var hasOrange = false;
+hasApple || hasOrange;
+false
+
+var hasApple = true;
+var hasOrange = true;
+hasApple || hasOrange;
+true
+
+var isWeekend = true;
+var needToShowerToday = !isWeekend;
+needToShowerToday;
+false
+
+var isWeekend = true;
+var needToShowerToday = !isWeekend;
+!needToShowerToday;
+true
+
+var isWeekend = false;
+var hadShower = true;
+var hasApple = false;
+var hasOrange = true;
+var shouldGoToSchool = !isWeekend && hadShower && (hasApple || hasOrange);
+shouldGoToSchool;
+true
