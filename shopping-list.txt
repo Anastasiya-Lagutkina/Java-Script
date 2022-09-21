@@ -1,0 +1,7 @@
+const myList = [];
+myList[0] = ["Milk", 2];
+myList[1] = ["Eggs", 1];
+myList[2] = ["Apple", 5];
+myList[3] = ["Chocolate", 2];
+myList[4] = ["Juice", 3];
+myList[5] = ["Butter", 1];
