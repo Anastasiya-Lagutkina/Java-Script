@@ -1,0 +1,69 @@
+var maniacs = ["Якко", "Вакко", "Дот"];
+undefined
+var maniacs = ["Якко", "Вакко", "Дот"];
+maniacs[0];
+'Якко'
+maniacs[1];
+'Вакко'
+maniacs[2];
+'Дот'
+maniacs.length;
+3
+maniacs[maniacs.length - 1];
+'Дот'
+var animals = [];
+animals.push("Кот");
+1
+animals.push("Пес");
+2
+animals.push("Лама");
+3
+animals;
+(3) ['Кот', 'Пес', 'Лама']
+animals.length;
+3
+animals[0];
+'Кот'
+animals.unshift("Мартышка");
+4
+animals;
+(4) ['Мартышка', 'Кот', 'Пес', 'Лама']
+animals.length;
+4
+animals.unshift("Белый медведь");
+5
+animals;
+(5) ['Белый медведь', 'Мартышка', 'Кот', 'Пес', 'Лама']
+animals[0];
+'Белый медведь'
+animals[2];
+'Кот'
+animals;
+(5) ['Белый медведь', 'Мартышка', 'Кот', 'Пес', 'Лама']
+var lastAnimal = animals.pop();
+lastAnimal;
+'Лама'
+animals;
+(4) ['Белый медведь', 'Мартышка', 'Кот', 'Пес']
+animals.pop();
+'Пес'
+animals;
+(3) ['Белый медведь', 'Мартышка', 'Кот']
+animals.unshift(lastAnimal);
+4
+animals;
+(4) ['Лама', 'Белый медведь', 'Мартышка', 'Кот']
+animals;
+(4) ['Лама', 'Белый медведь', 'Мартышка', 'Кот']
+var firstAnimal = animal.shift();
+firstAnimal;
+VM1347:1 Uncaught ReferenceError: animal is not defined
+    at <anonymous>:1:19
+(анонимный) @ VM1347:1
+animals;
+(4) ['Лама', 'Белый медведь', 'Мартышка', 'Кот']
+var firstAnimal = animals.shift();
+firstAnimal;
+'Лама'
+animals;
+(3) ['Белый медведь', 'Мартышка', 'Кот']
