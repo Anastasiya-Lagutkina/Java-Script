@@ -1,0 +1,50 @@
+var furryAnimals = ["Альпака", "Кольцехвостый лемур", "Йети"];
+var scalyAnimals = ["Удав", "Годзилла"];
+var furryAndScalyAnimals = furryAnimals.concat(scalyAnimals);
+furryAndScalyAnimals;
+(5) ['Альпака', 'Кольцехвостый лемур', 'Йети', 'Удав', 'Годзилла']
+furryAnimals;
+(3) ['Альпака', 'Кольцехвостый лемур', 'Йети']
+scalyAnimals;
+(2) ['Удав', 'Годзилла']
+var furryAnimals = ["Альпака", "Кольцехвостый лемур", "Йети"];
+var scalyAnimals = ["Удав", "Годзилла"];
+var featheredAnimals = ["Ара", "Додо"];
+var allAnimals = furryAnimals.concat(scalyAnimals, featheredAnimals);
+allAnimals;
+(7) ['Альпака', 'Кольцехвостый лемур', 'Йети', 'Удав', 'Годзилла', 'Ара', 'Додо']
+var colors = ["красный", "зеленый", "синий"];
+colors.indexOf("синий");
+2
+colors.indexOf("зеленый");
+1
+colors[2];
+'синий'
+colors.indexOf("синий");
+2
+colors.indexOf("фиолетовый");
+-1
+var insects = ["Пчела", "Муравей", "Пчела", "Пчела", "Муравей"];
+insects.indexOf("Пчела");
+0
+var boringAnimals = ["Мартышка", "Кот", "Рыба", "Ящерица"];
+boringAnimals.join();
+'Мартышка,Кот,Рыба,Ящерица'
+var boringAnimals = ["Мартышка", "Кот", "Рыба", "Ящерица"];
+boringAnimals.join("*");
+
+'Мартышка*Кот*Рыба*Ящерица'
+var boringAnimals = ["Мартышка", "Кот", "Рыба", "Ящерица"];
+boringAnimals.join(" и ");
+
+'Мартышка и Кот и Рыба и Ящерица'
+var boringAnimals = ["Мартышка", "Кот", "Рыба", "Ящерица"];
+boringAnimals.join(" - ");
+
+'Мартышка - Кот - Рыба - Ящерица'
+var myNames = ["Николас", "Эндрю", "Максвелл", "Морган"];
+myNames.join(" ");
+'Николас Эндрю Максвелл Морган'
+var ages = [11, 14, 79];
+ages.join(" ");
+'11 14 79'
