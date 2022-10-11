@@ -1,0 +1,60 @@
+Math.random();
+0.8821213721657162
+Math.random();
+0.12558341121002936
+Math.random();
+0.544197951742537
+Math.random() * 10;
+4.922034542395055
+Math.random() * 100;
+58.73598321573559
+Math.floor(3.748392);
+3
+Math.floor(5.76854893);
+5
+Math.floor(Math.random() * 4);
+0
+Math.floor(Math.random() * 4);
+0
+Math.floor(Math.random() * 4);
+2
+Math.floor(Math.random() * 4);
+3
+Math.floor(Math.random() * 4);
+1
+Math.floor(Math.random() * 4);
+2
+Math.floor(Math.random() * 4);
+1
+var randomWords = ["Взрыв", "Пещера", "Принцесса", "Карандаш"];
+var randomIndex = Math.floor(Math.random() * 4);
+randomWords[randomIndex];
+'Принцесса'
+var randomWords = ["Взрыв", "Пещера", "Принцесса", "Карандаш"];
+var randomIndex = Math.floor(Math.random() * 4);
+randomWords[randomIndex];
+'Карандаш'
+var randomWords = ["Взрыв", "Пещера", "Принцесса", "Карандаш"];
+var randomIndex = Math.floor(Math.random() * 4);
+randomWords[randomIndex];
+'Взрыв'
+var randomWords = ["Взрыв", "Пещера", "Принцесса", "Карандаш"];
+var randomIndex = Math.floor(Math.random() * 4);
+randomWords[randomIndex];
+'Карандаш'
+var randomWords = ["Взрыв", "Пещера", "Принцесса", "Карандаш"];
+var randomIndex = Math.floor(Math.random() * 4);
+randomWords[randomIndex];
+'Принцесса'
+var randomWords = ["Взрыв", "Пещера", "Принцесса", "Карандаш"];
+var randomIndex = Math.floor(Math.random() * 4);
+randomWords[randomIndex];
+'Принцесса'
+var randomWords = ["Взрыв", "Пещера", "Принцесса", "Карандаш"];
+var randomIndex = Math.floor(Math.random() * 4);
+randomWords[randomIndex];
+'Принцесса'
+var randomWords = ["Взрыв", "Пещера", "Принцесса", "Карандаш"];
+var randomIndex = Math.floor(Math.random() * 4);
+randomWords[randomIndex];
+'Пещера'
