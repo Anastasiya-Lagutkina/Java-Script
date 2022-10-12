@@ -1,0 +1,46 @@
+var chs = ["голова", "рука", "нога", "шея"];
+var prs = ["смешная", "волосатая", "лохматая"];
+var shivs = ["уши", "шея", "глаза", "живот"];
+var ivs = ["обезьяны", "мухи", "слона", "коровы"];
+var ch = chs[Math.floor(Math.random() * 4)];
+var pr = prs[Math.floor(Math.random() * 3)];
+var shiv = shivs[Math.floor(Math.random() * 4)];
+var iv = ivs[Math.floor(Math.random() * 4)];
+var pr = ["У тебя", ch, "ещё более", pr + ",", "чем", shiv, "у", iv + "!!!"].join(" ");
+pr;
+'У тебя шея ещё более волосатая, чем живот у обезьяны!!!'
+pr;
+'У тебя шея ещё более волосатая, чем живот у обезьяны!!!'
+var chs = ["голова", "рука", "нога", "шея"];
+var prs = ["смешная", "волосатая", "лохматая"];
+var shivs = ["уши", "шея", "глаза", "живот"];
+var ivs = ["обезьяны", "мухи", "слона", "коровы"];
+var ch = chs[Math.floor(Math.random() * 4)];
+var pr = prs[Math.floor(Math.random() * 3)];
+var shiv = shivs[Math.floor(Math.random() * 4)];
+var iv = ivs[Math.floor(Math.random() * 4)];
+var pr = ["У тебя", ch, "ещё более", pr + ",", "чем", shiv, "у", iv + "!!!"].join(" ");
+pr;
+'У тебя голова ещё более смешная, чем живот у обезьяны!!!'
+var chs = ["голова", "рука", "нога", "шея"];
+var prs = ["смешная", "волосатая", "лохматая"];
+var shivs = ["уши", "шея", "глаза", "живот"];
+var ivs = ["обезьяны", "мухи", "слона", "коровы"];
+var ch = chs[Math.floor(Math.random() * 4)];
+var pr = prs[Math.floor(Math.random() * 3)];
+var shiv = shivs[Math.floor(Math.random() * 4)];
+var iv = ivs[Math.floor(Math.random() * 4)];
+var pr = ["У тебя", ch, "ещё более", pr + ",", "чем", shiv, "у", iv + "!!!"].join(" ");
+pr;
+'У тебя рука ещё более лохматая, чем уши у мухи!!!'
+var chs = ["голова", "рука", "нога", "шея"];
+var prs = ["смешная", "волосатая", "лохматая"];
+var shivs = ["уши", "шея", "глаза", "живот"];
+var ivs = ["обезьяны", "мухи", "слона", "коровы"];
+var ch = chs[Math.floor(Math.random() * 4)];
+var pr = prs[Math.floor(Math.random() * 3)];
+var shiv = shivs[Math.floor(Math.random() * 4)];
+var iv = ivs[Math.floor(Math.random() * 4)];
+var pr = ["У тебя", ch, "ещё более", pr + ",", "чем", shiv, "у", iv + "!!!"].join(" ");
+pr;
+'У тебя голова ещё более смешная, чем уши у обезьяны!!!'
