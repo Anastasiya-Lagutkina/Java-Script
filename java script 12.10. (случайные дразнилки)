@@ -1,0 +1,59 @@
+var randomBodyParts = ["глаз", "нос", "череп"];
+var randomAdjectives = ["вонючая", "унылая", "дурацкая"];
+var randomWords = ["муха", "выдра", "дубина", "мартышка", "крыса"];
+var randomBodyPart = randomBodyParts[Math.floor(Math.random() * 3)];
+var randomAdjective = randomAdjectives[Math.floor(Math.random() * 3)];
+var randomWord = randomWords[Math.floor(Math.random() * 5)];
+var randomInsalt = "У тебя " + randomBodyPart + " словно " + randomAdjective + " " + randomWord + "!!!";
+randomInsalt;
+
+'У тебя череп словно дурацкая крыса!!!'
+randomInsalt;
+'У тебя череп словно дурацкая крыса!!!'
+randomInsalt;
+'У тебя череп словно дурацкая крыса!!!'
+var randomBodyParts = ["глаз", "нос", "череп"];
+var randomAdjectives = ["вонючая", "унылая", "дурацкая"];
+var randomWords = ["муха", "выдра", "дубина", "мартышка", "крыса"];
+var randomBodyPart = randomBodyParts[Math.floor(Math.random() * 3)];
+var randomAdjective = randomAdjectives[Math.floor(Math.random() * 3)];
+var randomWord = randomWords[Math.floor(Math.random() * 5)];
+var randomInsalt = "У тебя " + randomBodyPart + " словно " + randomAdjective + " " + randomWord + "!!!";
+randomInsalt;
+'У тебя нос словно вонючая дубина!!!'
+var randomBodyParts = ["глаз", "нос", "череп"];
+var randomAdjectives = ["вонючая", "унылая", "дурацкая"];
+var randomWords = ["муха", "выдра", "дубина", "мартышка", "крыса"];
+var randomBodyPart = randomBodyParts[Math.floor(Math.random() * 3)];
+var randomAdjective = randomAdjectives[Math.floor(Math.random() * 3)];
+var randomWord = randomWords[Math.floor(Math.random() * 5)];
+var randomInsalt = "У тебя " + randomBodyPart + " словно " + randomAdjective + " " + randomWord + "!!!";
+randomInsalt;
+'У тебя глаз словно унылая выдра!!!'
+var randomBodyParts = ["глаз", "нос", "череп"];
+var randomAdjectives = ["вонючая", "унылая", "дурацкая"];
+var randomWords = ["муха", "выдра", "дубина", "мартышка", "крыса"];
+var randomBodyPart = randomBodyParts[Math.floor(Math.random() * 3)];
+var randomAdjective = randomAdjectives[Math.floor(Math.random() * 3)];
+var randomWord = randomWords[Math.floor(Math.random() * randomWords.length)];
+var randomInsalt = "У тебя " + randomBodyPart + " словно " + randomAdjective + " " + randomWord + "!!!";
+randomInsalt;
+'У тебя череп словно вонючая выдра!!!'
+var randomBodyParts = ["глаз", "нос", "череп"];
+var randomAdjectives = ["вонючая", "унылая", "дурацкая"];
+var randomWords = ["муха", "выдра", "дубина", "мартышка", "крыса"];
+var randomBodyPart = randomBodyParts[Math.floor(Math.random() * 3)];
+var randomAdjective = randomAdjectives[Math.floor(Math.random() * 3)];
+var randomWord = randomWords[Math.floor(Math.random() * 5)];
+var randomInsalt = ["У тебя", randomBodyPart, "словно", randomAdjective, randomWord + "!!!"];
+randomInsalt;
+(5) ['У тебя', 'глаз', 'словно', 'вонючая', 'дубина!!!']
+var randomBodyParts = ["глаз", "нос", "череп"];
+var randomAdjectives = ["вонючая", "унылая", "дурацкая"];
+var randomWords = ["муха", "выдра", "дубина", "мартышка", "крыса"];
+var randomBodyPart = randomBodyParts[Math.floor(Math.random() * 3)];
+var randomAdjective = randomAdjectives[Math.floor(Math.random() * 3)];
+var randomWord = randomWords[Math.floor(Math.random() * 5)];
+var randomInsalt = ["У тебя", randomBodyPart, "словно", randomAdjective, randomWord + "!!!"].join(" ");
+randomInsalt;
+'У тебя нос словно дурацкая крыса!!!'
