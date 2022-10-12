@@ -1,0 +1,36 @@
+var chs = ["голова", "рука", "нога", "живот"];
+var prs = ["смешная", "волосатая", "лохматая"];
+var ivs = ["обезьяна", "муха", "лепешка", "корова"];
+var ch = chs[Math.floor(Math.random() * 4)];
+var pr = prs[Math.floor(Math.random() * 3)];
+var iv = ivs[Math.floor(Math.random() * 4)];
+var pr = ["У тебя", ch, "словно", pr, iv + "!!!"].join(" ");
+pr;
+'У тебя живот словно смешная обезьяна!!!'
+var chs = ["голова", "рука", "нога", "живот"];
+var prs = ["смешная", "волосатая", "лохматая"];
+var ivs = ["обезьяна", "муха", "лепешка", "корова"];
+var ch = chs[Math.floor(Math.random() * 4)];
+var pr = prs[Math.floor(Math.random() * 3)];
+var iv = ivs[Math.floor(Math.random() * 4)];
+var pr = ["У тебя", ch, "словно", pr, iv + "!!!"].join(" ");
+pr;
+'У тебя голова словно лохматая обезьяна!!!'
+var chs = ["голова", "рука", "нога", "живот"];
+var prs = ["смешная", "волосатая", "лохматая"];
+var ivs = ["обезьяна", "муха", "лепешка", "корова"];
+var ch = chs[Math.floor(Math.random() * 4)];
+var pr = prs[Math.floor(Math.random() * 3)];
+var iv = ivs[Math.floor(Math.random() * 4)];
+var pr = ["У тебя", ch, "словно", pr, iv + "!!!"].join(" ");
+pr;
+'У тебя голова словно лохматая корова!!!'
+var chs = ["голова", "рука", "нога", "живот"];
+var prs = ["смешная", "волосатая", "лохматая"];
+var ivs = ["обезьяна", "муха", "лепешка", "корова"];
+var ch = chs[Math.floor(Math.random() * 4)];
+var pr = prs[Math.floor(Math.random() * 3)];
+var iv = ivs[Math.floor(Math.random() * 4)];
+var pr = ["У тебя", ch, "словно", pr, iv + "!!!"].join(" ");
+pr;
+'У тебя рука словно волосатая обезьяна!!!'
