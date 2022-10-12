@@ -1,0 +1,59 @@
+var cat = {
+    "legs": 3,
+    "name": "Гармония",
+    "color": "Черепаховый"
+};
+undefined
+var cat = {
+    legs: 3,
+    name: "Гармония",
+    color: "Черепаховый"
+};
+undefined
+var cat = {
+    legs: 3,
+    "full name": "Гармония Филомена Уси-Пусичка Морган",
+    color: "Черепаховый"
+};
+undefined
+cat["full name"];
+'Гармония Филомена Уси-Пусичка Морган'
+var dog = { name: "Оладушек", age: 6, color: "белый", bark: "Гав тяф тяф!"};
+var cat = { name: "Гармония", age: 8, color: "Черепаховый"};
+Object.keys(dog);
+(4) ['name', 'age', 'color', 'bark']
+Object.keys(cat);
+(3) ['name', 'age', 'color']
+var cat = {};
+cat["legs"] = 3;
+cat["name"] = "Гармония";
+cat["color"] = "Черепаховый";
+cat;
+{legs: 3, name: 'Гармония', color: 'Черепаховый'}
+var cat = {};
+cat.legs = 3;
+cat.name = "Гармония";
+cat.color = "Черепаховый"
+cat;
+{legs: 3, name: 'Гармония', color: 'Черепаховый'}
+var dog = {
+    name: "Оладушек",
+    legs: 4;
+isAwesome: true
+};
+dog.isBrown;
+VM1204:3 Uncaught SyntaxError: Unexpected token ';'
+var dog = {
+    name: "Оладушек",
+    legs: 4,
+isAwesome: true
+};
+dog.isBrown;
+undefined
+var dog = {
+    name: "Оладушек",
+    legs: 4,
+isAwesome: true
+};
+dog.legs;
+4
