@@ -1,0 +1,8 @@
+function hoopCount (n) {
+   switch(n) {
+       case 11:
+       return 'Great, now move on to tricks';
+       case 3:
+       return 'Keep at it until you get it';
+   }   
+}
